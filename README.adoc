@@ -1,3 +1,5 @@
 = Mocktopus Playground
 
+You need nighty: `cargo +nightly test`
+
 Try to learn and spread knowledge
