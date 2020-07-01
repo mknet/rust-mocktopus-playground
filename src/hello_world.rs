@@ -5,7 +5,7 @@ fn world() -> &'static str {
     "world"
 }
 
-#[mockable]
+#[cfg_attr(test, mockable)]
 pub fn hello_world() -> String {
     format!("Hello {}!", world())
 }
