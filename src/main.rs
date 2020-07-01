@@ -4,7 +4,7 @@ mod under_test;
 mod hello_world;
 
 fn main() {
-    println!("{}", hello_world::hello_world());
+    println!("{}", under_test::do_something());
 }
 
 #[cfg(test)]
